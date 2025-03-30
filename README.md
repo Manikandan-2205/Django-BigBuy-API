@@ -47,9 +47,9 @@ Ensure you have the following installed:
 
 4. **Set up environment variables** (Create `.env` file in the root directory)
    ```ini
-   SECRET_KEY=your_secret_key
+   SECRET_KEY="Key"
    DEBUG=True
-   DATABASE_URL=postgres://user:password@localhost:5432/bigbuy
+   DATABASE_URL=DbLink
    ```
 
 5. **Apply migrations**
@@ -76,7 +76,7 @@ BigBuy uses `drf-yasg` to generate API documentation.
    ```
 
 2. Check the API documentation at:
-   - 📌 Swagger UI: `http://127.0.0.1:8000/swagger/`
+   - 📌 Swagger UI: `http://127.0.0.1:8000/apidocs/` -- swaggerui-link
    - 📌 Redoc UI: `http://127.0.0.1:8000/redoc/`
 
 ## 🧪 Running Tests
